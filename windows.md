@@ -1,7 +1,7 @@
 # Windows
 
 ### System Commands
-* expand - -Expands compressed .cab files
+* expand - Expands compressed .cab files
 * tasklist - Display processes that are runing (DOS version of *NIX ps)
 * taskkiill - End a spefific task
 * mstsc - Open remote desktop connection utility
@@ -34,5 +34,3 @@ Temporary Files:
   * C:\Users\UserName\AppData\Local\Temp
   * %temp%
   * %tmp%
-
-### 
