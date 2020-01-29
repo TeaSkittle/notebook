@@ -36,8 +36,8 @@ struct dog *ptr_dog;
 // Here are the pointers, changing values in the my_dog struct
 ptr_dog->age++;
 strcpy(ptr_dog->name, "scrappy")
-/* Dog's name is now = scrappy
-    Dog's age is now =  6 */
+/* Dog's name now = scrappy
+   Dog's age now =  6 */
 ```
 
 ### Simple example
@@ -46,5 +46,5 @@ strcpy(ptr_dog->name, "scrappy")
 int a = 5;
 int *b = &a;
 printf("b = %d\n", *b);
-b = 5
+// b = 5
 ```
