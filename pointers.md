@@ -29,7 +29,7 @@ b = b + sizeof(int);
 ```c
 struct dog{
     char name[10];
-	int age;
+    int age;
 };
 struct dog my_dog = {"scooby", 5};
 struct dog *ptr_dog;
