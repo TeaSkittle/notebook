@@ -1,4 +1,5 @@
-# Intro to CompSci/Java
+# Intro to Java
+Notes from my intro to porgramming course ( https://github.com/TeaSkittle/CSCI_1105_IntroToProgramming_Coursework ).
 
 ## Chapter 1
 
