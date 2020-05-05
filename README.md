@@ -8,3 +8,5 @@ I am a pretty big note taker when studying a new subject, and I wanted a digital
 Other great resources that I use for referencing and looking up things are:
 * TLDR - https://tldr.sh/ 
 * Lean X in Y minutes - https://learnxinyminutes.com/
+* SS64 - https://ss64.com/
+* pure sh bible - https://github.com/dylanaraps/pure-sh-bible
