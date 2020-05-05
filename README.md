@@ -6,5 +6,5 @@ I am a pretty big note taker when studying a new subject, and I wanted a digital
 
 ## Resources
 Other great resources that I use for referencing and looking up things are:
-* TLDR ( https://tldr.sh/ )
-* Lean X in Y minutes ( https://learnxinyminutes.com/ )
+* TLDR - https://tldr.sh/ 
+* Lean X in Y minutes - https://learnxinyminutes.com/
