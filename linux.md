@@ -4,6 +4,8 @@ Notes while going through these sources:
 - [ Linux Basics for Hackers ]( https://nostarch.com/linuxbasicsforhackers )
 - [ Linux Journey ]( https://linuxjourney.com/ )
 
+> Keep in mind that these notes aren't super extensive, as most of the basic Linux stuff I already know I left out ( No need to describe: cat, pwd, and other basic Linux programs ).
+
 ## File Structure
 * / - Root
 * /bin - User binaries
