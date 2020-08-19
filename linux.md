@@ -55,7 +55,7 @@ $ find / -user root -perm -4000
 - df -h ( Shows filesystem and usage )
 - du -h ( Shows file and folder sizes )
 
-### File Descriptors
+## File Descriptors
 
 0. Standard Out
 1. Standard In
@@ -74,7 +74,7 @@ $ cat peanuts.txt > banana.txt
 $ ls /fake/directory 2> /dev/null
 ```
 
-#### Basic overview of file permissions: ( ls -la )
+### Basic overview of file permissions: ( ls -la )
 
 > type | owner | user | group
 
@@ -107,6 +107,15 @@ at > /root/myscanningscript
   - view number of cores: cat /proc/cpuinfo
 - iostat ( Report CPU statistics and I/O statistics for devices, partitions and network file systems )
 - vmstat ( Report virtual memory statistics )
+
+### Check on log in
+
+When logging into a system, it's a good idea do run following:
+```Bash
+$ who -u  ( view logged in users )
+$ ps -ef ( see every proccess on the system )
+$ ps -u root( see every proccess running as root )
+```
 
 ## Environment Variables
 
