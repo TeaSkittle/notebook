@@ -6,6 +6,10 @@ Notes while going through these sources:
 
 > Keep in mind that these notes aren't super extensive, as most of the basic Linux stuff I already know I left out ( No need to describe: cat, pwd, and other basic Linux programs ).
 
+Other rsources I want to learn from and/or revist:
+- [ Getting Started Becoming a Master Hacker ]( https://www.amazon.com/Getting-Started-Becoming-Master-Hacker/dp/1711729299 )
+- [ Hacking: The Art of Exploitation ]( https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441/ref=pd_lpo_14_t_1/131-2953926-5944931?_encoding=UTF8&pd_rd_i=1593271441&pd_rd_r=cbbff5c2-2fe9-4bb1-a7c6-78b5a220bd0c&pd_rd_w=K5DoG&pd_rd_wg=Umypd&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=R3Q1XF5T1WN4Z5QVS0R3&psc=1&refRID=R3Q1XF5T1WN4Z5QVS0R3 )
+
 ## File Structure
 * / - Root
 * /bin - User binaries
