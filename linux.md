@@ -59,7 +59,7 @@ $ find / -user root -perm -4000
 $ cat < peanuts.txt > banana.txt 
 # Is actually:
 $ cat 0< peanuts.txt 1> banana.txt 
-# Whcih is equivalent to:
+# Which is equivalent to:
 $ cat peanuts.txt > banana.txt
 ```
 - This is most useful with redirecting standard error, for example:
