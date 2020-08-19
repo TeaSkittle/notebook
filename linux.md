@@ -29,7 +29,7 @@ Notes while going through these sources:
 - which ( find binaries in the PATH variable )
 - find ( more complete, can do all of the above with more options. syntax: find directory options expression )
 - find examples:
-```
+```Bash
 $ find / -type f -name apache2
 $ find /etc -type f --name apache2.*
 $ find / -user root -perm -4000
@@ -55,7 +55,7 @@ $ find / -user root -perm -4000
 2. Standard Error
 
 - When using <, > there is always 0,1,or 2 that is hidden from the user, for example:
-```
+```Bash
 $ cat < peanuts.txt > banana.txt 
 # Is actually:
 $ cat 0< peanuts.txt 1> banana.txt 
@@ -63,8 +63,8 @@ $ cat 0< peanuts.txt 1> banana.txt
 $ cat peanuts.txt > banana.txt
 ```
 - This is most useful with redirecting standard error, for example:
-```
-ls /fake/directory 2> /dev/null
+```Bash
+$ ls /fake/directory 2> /dev/null
 ```
 
 #### Basic overview of file permissions: ( ls -la )
@@ -84,12 +84,12 @@ ls /fake/directory 2> /dev/null
 - renice ( same as nice but does not increment, sets to the specific value, also takes PID instead of name )
 
 Examples:
-```
+```Bash
 $ nice -n -10 /bin/slowprocess
 $ renice 20 6996
 ```
 - at ( daemon used to run command at specific time, example below )
-```
+```Bash
 $ at 7:20am
 at > /root/myscanningscript
 ```
@@ -129,7 +129,7 @@ Syntax:
 dd if=inputfile of=outputfile 
  
 Examples:
-```
+```Bash
 # copy flash drive
 $ dd if=/dev/sdb of=/root/flashcopy
 # make a bootable flashdirve
@@ -175,7 +175,7 @@ Enable local database via SQL
 - use mysql; ( connect to mysql database )
 
 To change root password:  
-```
+```Bash
 $ update user set password = PASSWORD("new_pass") where user = 'root';
 ```
 - mysql -u root -p 192.168.1.101 ( connect to remote address )
@@ -210,7 +210,7 @@ until reboot, for permanent changes edit: /etc/sysctl.conf
 - crond == crond daemon
 
 /etc/crontab format:  
-```
+```Bash
 M  H DoM MON DoW USER COMMAND
 30 2 *   *   1-5 root /root/myscanningscript
 
@@ -220,7 +220,7 @@ M  H DoM MON DoW USER COMMAND
 ```
 - crontab -e ( edit the crontab, can also just do: vim /etc/crontab )
 - Can use several shortcuts to run for every instance, instead of the above syntax, example:
-```
+```Bash
 # Run every day at midnight
 @midnight user /usr/share/MySQLsscanner.sh
 ```
@@ -233,7 +233,7 @@ M  H DoM MON DoW USER COMMAND
 - ifconfig eth0 192.168.181.115 ( change ip address of eth0 interface )
 - ifconfig eth0 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
 - Spoof a MAC address:
-```
+```Bash
 $ ifconfig eth0 down
 $ ifconfig eth0 hw ether 00:11:22:33:44:55
 $ ifconfig eth0 up
@@ -251,7 +251,7 @@ $ ifconfig eth0 up
 - dig hackers-arise.com ns ( DNS name server info )
 - dig hackers-arise.com mx ( DNS mail exchange server info )
 - Chanage DNS server used by editing /etc/resolv.conf
-```
+```Bash
 nameserver 9.9.9.9
 nameserver 149.112.112.112
 ```
@@ -261,7 +261,7 @@ nameserver 149.112.112.112
 ### File Transfers
 
 - scp ( "Secure copy", Copy files between hosts using Secure Copy Protocol over SSH )
-```
+```Bash
 # copy a file over from local host to a remote host
 $ scp myfile.txt username@remotehost.com:/remote/directory
 
