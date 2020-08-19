@@ -22,9 +22,8 @@ Notes while going through these sources:
 * /media - Removable devices
 * /srv - Service data
 
-## UNIX Commands
+## *NIX Commands
 
-- cd .. .. ( move up 2 directories, can have as many ".." as needed )
 - locate ( search for string in filename, searches the entire system )
 - whereis ( find binaries, only searches in bin folders )
 - which ( find binaries in the PATH variable )
@@ -35,6 +34,7 @@ $ find / -type f -name apache2
 $ find /etc -type f --name apache2.*
 $ find / -user root -perm -4000
 ```
+- cd .. .. ( move up 2 directories, can have as many ".." as needed )
 - ps aux ( view all processes running on system )
 - ps aux | grep apcahe2 ( search through ps to see if proc is running )
 - nl ( number lines, cat file with line numbers )
