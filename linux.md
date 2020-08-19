@@ -40,15 +40,13 @@ $ find / -user root -perm -4000
 - nl ( number lines, cat file with line numbers )
 - sed s/foo/bar/2 file.txt ( change only the second occurrence of foo )
 - whatis ( display one-line manual page descriptions )
-
-### Useful, less known commands
-* fsck ( Check for errors in filesystem )
-* hexdump ( Display file contents in hexadecimal )
-* dc ( reverse-polish desk calculator )
-* chsh ( Change user shell )
-* nohup ( Run a command immune to hangups )
-* df -h ( Shows filesystem and usage )
-* du -h ( Shows file and folder sizes )
+- fsck ( Check for errors in filesystem )
+- hexdump ( Display file contents in hexadecimal )
+- dc ( reverse-polish desk calculator )
+- chsh ( Change user shell )
+- nohup ( Run a command immune to hangups )
+- df -h ( Shows filesystem and usage )
+- du -h ( Shows file and folder sizes )
 
 ### File Descriptors
 
