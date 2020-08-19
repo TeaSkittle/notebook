@@ -6,7 +6,7 @@ Notes while going through these sources:
 
 > Keep in mind that these notes aren't super extensive, as most of the basic Linux stuff I already know I left out ( No need to describe: cat, pwd, and other basic Linux programs ).
 
-Other rsources I want to learn from and/or revist:
+Other resources I want to learn from and/or revist:
 - [ Getting Started Becoming a Master Hacker ]( https://www.amazon.com/Getting-Started-Becoming-Master-Hacker/dp/1711729299 )
 - [ Hacking: The Art of Exploitation ]( https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441/ref=sr_1_1?dchild=1&keywords=Hacking%3A+The+Art+of+Exploitation&qid=1597864262&s=books&sr=1-1 )
 
