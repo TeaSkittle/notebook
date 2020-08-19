@@ -4,8 +4,9 @@ Notes while going through these sources:
 - [ Linux Basics for Hackers ]( https://nostarch.com/linuxbasicsforhackers )
 - [ Linux Journey ]( https://linuxjourney.com/ )
 - [ Phrack ]( http://www.phrack.org/ )
+- [ The Art of Command Line ]( https://github.com/jlevy/the-art-of-command-line )
 
-> Keep in mind that these notes aren't super extensive, as most of the basic Linux stuff I already know I left out ( No need to describe: cat, pwd, and other basic Linux programs ).
+> Keep in mind that these notes aren't super extensive, as most of the basic Linux stuff I already know I left out ( No need to describe: cat, pwd, and other basic Linux programs ). Also some of these are notes on going through CTF's, and just basic things I have come across.
 
 Other resources I want to learn from and/or revist:
 - [ Getting Started Becoming a Master Hacker ]( https://www.amazon.com/Getting-Started-Becoming-Master-Hacker/dp/1711729299 )
@@ -53,7 +54,7 @@ $ find / -user root -perm -4000
 - chsh ( Change user shell )
 - nohup ( Run a command immune to hangups )
 - df -h ( Shows filesystem and usage )
-- du -h ( Shows file and folder sizes )
+- du -hs * ( quick summary of disk usage )
 
 ## File Descriptors
 
@@ -107,6 +108,7 @@ at > /root/myscanningscript
   - view number of cores: cat /proc/cpuinfo
 - iostat ( Report CPU statistics and I/O statistics for devices, partitions and network file systems )
 - vmstat ( Report virtual memory statistics )
+- pstree -p ( a helpful display of the process tree )
 
 ### Check on log in
 
@@ -249,6 +251,19 @@ M  H DoM MON DoW USER COMMAND
 - update-rc.d <name of the script or service> <remove|defaults|disable|enable>
 - update-rc.d postgresql defaults ( adds line to rc.d, will run on startup )
 
+## I/O Redirection
+
+* Using xargs allows tools like echo and rm and mkdir to accept standard input as arguments
+``` 
+echo 'one two three' | xargs mkdir
+ls
+one two three
+```
+* The output of a command can be treated like a file via <(some command) (known as process substitution). For example, compare local /etc/hosts with a remote one:
+```
+diff /etc/hosts <(ssh somehost cat /etc/hosts)
+```
+
 ## Networking
 
 - ifconfig eth0 192.168.181.115 ( change ip address of eth0 interface )
@@ -269,8 +284,9 @@ $ ifconfig eth0 up
 
 ### DNS
 
-- dig hackers-arise.com ns ( DNS name server info )
-- dig hackers-arise.com mx ( DNS mail exchange server info )
+- dig 127.0.0.1 ns ( DNS name server info )
+- dig 127.0.0.1 mx ( DNS mail exchange server info )
+- dig +short 127.0.0.1 ( view a simpler and more terse output of dig )
 - Chanage DNS server used by editing /etc/resolv.conf
 ```Bash
 nameserver 9.9.9.9
