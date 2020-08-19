@@ -56,9 +56,11 @@ $ find / -user root -perm -4000
 
 - When using <, > there is always 0,1,or 2 that is hidden from the user, for example:
 ```
-cat < peanuts.txt > banana.txt 
+$ cat < peanuts.txt > banana.txt 
 # Is actually:
-cat 0< peanuts.txt 1> banana.txt 
+$ cat 0< peanuts.txt 1> banana.txt 
+# Whcih is equivalent to:
+$ cat peanuts.txt > banana.txt
 ```
 - This is most useful with redirecting standard error, for example:
 ```
