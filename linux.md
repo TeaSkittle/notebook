@@ -3,6 +3,7 @@
 Notes while going through these sources:
 - [ Linux Basics for Hackers ]( https://nostarch.com/linuxbasicsforhackers )
 - [ Linux Journey ]( https://linuxjourney.com/ )
+- [ Phrack ]( http://www.phrack.org/ )
 
 > Keep in mind that these notes aren't super extensive, as most of the basic Linux stuff I already know I left out ( No need to describe: cat, pwd, and other basic Linux programs ).
 
@@ -152,6 +153,11 @@ $ dd if=debian.iso of=/dev/sdb status=progress
 - service rsyslog stop ( disable logging, requires root )
 - service rsyslog start ( turn logging on, remember to set when leaving )
 - logger -s Hello ( add "Hello" to log file )
+- Find log files:
+```Bash
+$ find / -name "*log*" -print ( This lists out all the files with the name 'log' in it )
+```
+- To avoid history run vi and execute commands with :!
 
 ## Services
 
