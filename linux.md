@@ -11,7 +11,7 @@ Notes while going through these sources:
 * /etc - Configuration files
 * /dev - Device files
 * /proc - Process information
-* /var - Variabel files
+* /var - Variable files
 * /tmp - Temporary files
 * /usr - User programs
 * /home - Home directories
