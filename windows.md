@@ -1,6 +1,6 @@
 # Windows
 
-### System Commands
+## System Commands
 * expand - Expands compressed .cab files
 * tasklist - Display processes that are runing (DOS version of *NIX ps)
 * taskkiill - End a spefific task
@@ -17,7 +17,7 @@
 * tracert - Trace packet path
 * nslookup - View dns settings
  
-### File Locations
+## File Locations
 * System Files:
   * C:\Windows\
   * %systemroot%
@@ -34,3 +34,10 @@ Temporary Files:
   * C:\Users\UserName\AppData\Local\Temp
   * %temp%
   * %tmp%
+
+## Fix Stuff
+
+* Good command to run for fixing OS issues:
+```
+sfc /scannow & DISM.exe /Online /Cleanup-image /Scanhealth && DISM.exe /Online /Cleanup-image /Restorehealth & sfc /scannow
+```
