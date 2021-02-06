@@ -15,9 +15,9 @@
 
 ## Apps
 
-- [ Kate | text editor ]( https://kate-editor.org/ )
-- [ Okular | pdf reader ]( https://okular.kde.org/ )
-- [ mpv | video player ]( https://mpv.io/ )
-- [ foobar2000 | audio player ]( https://www.foobar2000.org/ )
-- [ Deluge | BitTorrent client ]( https://www.deluge-torrent.org/ )
+- [ Kate ]( https://kate-editor.org/ )
+- [ Okular ]( https://okular.kde.org/ )
+- [ mpv ]( https://mpv.io/ )
+- [ foobar2000 ]( https://www.foobar2000.org/ )
+- [ Deluge ]( https://www.deluge-torrent.org/ )
 - [ ProtonVPN ]( https://protonvpn.com/ )
