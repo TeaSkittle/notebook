@@ -57,6 +57,8 @@ sfc /scannow & DISM.exe /Online /Cleanup-image /Scanhealth && DISM.exe /Online /
 - [ MarkC Mouse Acceleration Fix ]( https://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html )
 - [ Tronscript ]( https://www.tronscript.com/ )
 - [ Defraggler ]( https://www.ccleaner.com/defraggler )
+- [ KeePassXC ]( https://keepassxc.org/ )
+- [ VeraCrypt ]( https://www.veracrypt.fr/code/VeraCrypt/ )
 
 ### Apps
 
