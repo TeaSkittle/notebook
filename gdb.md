@@ -2,7 +2,7 @@
 
 - [gdb in 60 seconds](https://www.youtube.com/watch?v=mfmXcbiRs0E)  
 - [great tui talk, 15 min](https://www.youtube.com/watch?v=PorfLSr3DDI)  
-- [gdb basic](https://www.youtube.com/watch?v=sCtY--xRUyI)  
+- [gdb basics](https://www.youtube.com/watch?v=sCtY--xRUyI)  
 - https://niranjanmr.wordpress.com/2013/04/28/using-gdb-layout-when-debugging-assembly-language-programs/    
 - https://sourceware.org/gdb/onlinedocs/gdb/TUI.html  
 
