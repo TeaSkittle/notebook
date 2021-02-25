@@ -39,20 +39,20 @@ Can use Emacs commands to swicth windows and stuff
 
 Use **x** and one of the options below to examine memory. Can specify
 specific address, such as: *0x8048384* or can analyze register ith a
-dollar sign: *$eip*
+dollar sign: *$eip*  
 
-**o** - Display in octal
-**x** - Display in hex
-**u** - Diplay in unsigned, standard base 10
-**t** - Display in binary
+**o** - Display in octal  
+**x** - Display in hex  
+**u** - Diplay in unsigned, standard base 10  
+**t** - Display in binary  
 
 Can also specify number of addressed to show and sizes, sizes are
-confusing, but as such:
+confusing, but as such:  
 
-**b** - A single byte
-**h** - A halfword, 2 bytes
-**w** - A word, 4 bytes
-**g** - A giant, 8 bytes
+**b** - A single byte  
+**h** - A halfword, 2 bytes  
+**w** - A word, 4 bytes  
+**g** - A giant, 8 bytes  
 
 Example:
 ```Bash
